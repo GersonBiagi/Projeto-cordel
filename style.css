@@ -1,0 +1,97 @@
+@charset "UTF-B";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500&family=Passion+One:wght@400;700&family=Poppins:wght@100;300;400;500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500&family=Passion+One:wght@400;700&family=Patrick+Hand&family=Poppins:wght@100;300;400;500&display=swap');
+
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:  'Passion one', cursive;
+    --fonte3: 'Sriracha', cursive; 
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    
+
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+   
+}
+header > h1{
+    padding-top: 40px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 8vw;
+}
+header > p {
+    padding-bottom: 50px;
+    padding: 10px;
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+header a:hover footer a:hover{
+    text-decoration: underline;
+}
+section{
+        padding-top: 10vh;
+        padding-bottom: 10lvh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 2vw;
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.937);
+}
+section.imagem{
+    background-color: rgb(42, 37, 37);
+    color: white;
+    background-attachment: fixed;
+
+}
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.253);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.541);
+}
+section#img01{
+    background-image: url('../desafio12/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+   
+}
+section#img02{
+    background-image: url('../desafio12/imagens/background002.jpg');
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
